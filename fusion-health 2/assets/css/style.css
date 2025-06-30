@@ -1,0 +1,45 @@
+:root {
+  --gold: #C8A750;
+  --charcoal: #3D3D3D;
+  --cream: #FDF9F4;
+  --gray: #7A7A7A;
+  --olive: #4F4F4F;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--charcoal);
+  background-color: var(--cream);
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: var(--gold);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--olive);
+}
